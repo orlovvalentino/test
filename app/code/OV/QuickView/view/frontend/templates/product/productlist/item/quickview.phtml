@@ -1,0 +1,13 @@
+<?php /** @var Magento\Catalog\Block\Product\ProductList\Item\Block $block */ ?>
+<div class="actions-primary">
+    <button type="button"
+            id="quickViewButton<?php /* @noEscape */ echo $block->getProduct()->getId() ?>"
+            class="action tocart primary"
+            data-mage-init='{ "OV_QuickView/js/product/productlist/item/quickview": { } }'
+            data-id="<?php /* @noEscape */ echo $block->getProduct()->getId() ?>"
+            data-url="<?php /* @noEscape */ echo $block->getProductUrl($block->getProduct()) ?>">
+        <?php /* @noEscape */ echo __('Quick view') ?>
+    </button>
+</div>
+
+<div id="quickViewContainer<?php /* @noEscape */ echo $block->getProduct()->getId() ?>"></div>
