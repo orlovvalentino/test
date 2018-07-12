@@ -20,11 +20,9 @@
                                                 <item name="totals" xsi:type="array">
                                                     <item name="children" xsi:type="array">
                                                         <item name="you-save" xsi:type="array">
-                                                            <item name="component"  xsi:type="string">Magento_Tax/js/view/cart/you-save</item>
+                                                            <item name="component"  xsi:type="string">OV_YouSave/js/view/cart/you-save</item>
                                                             <item name="config" xsi:type="array">
-                                                                <item name="template" xsi:type="string">Magento_Tax/summary/you-save</item>
-                                                                <item name="exclTaxLabel" xsi:type="string" translate="true">Order Total Excl. Tax</item>
-                                                                <item name="inclTaxLabel" xsi:type="string" translate="true">Order Total Incl. Tax</item>
+                                                                <item name="template" xsi:type="string">OV_YouSave/summary/you-save</item>
                                                                 <item name="title" xsi:type="string" translate="true">You Save</item>
                                                             </item>
                                                         </item>
