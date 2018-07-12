@@ -15,13 +15,7 @@ define([
             type: 'popup',
             responsive: true,
             innerScroll: false,
-            buttons: [{
-                text: $.mage.__('Close'),
-                class: 'close-modal',
-                click: function () {
-                    this.closeModal();
-                }
-            }]
+            buttons: false
         };
 
         var popup = modal(options, $('#quickViewContainer' + product_id));
